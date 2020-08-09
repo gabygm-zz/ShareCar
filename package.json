@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gabygm/ShareCar/issues"
   },
-  "homepage": "https://github.com/gabygm/ShareCar#readme"
+  "homepage": "https://github.com/gabygm/ShareCar#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
