@@ -1,0 +1,19 @@
+{
+  "name": "sharecar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabygm/ShareCar.git"
+  },
+  "author": "Gaby G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabygm/ShareCar/issues"
+  },
+  "homepage": "https://github.com/gabygm/ShareCar#readme"
+}
