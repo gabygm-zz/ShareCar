@@ -10,8 +10,9 @@ Driver.prototype.names = function() {
     return `${this.firstName} ${this.lastName}, ${this.city}`
 }
 
-Driver.prototype.isAvailable = function(currentDay) {
-    if(this.daysNoAvailable.includes(currentDay)){
+Driver.prototype.isAvailable = function(getDayFn) {
+    const today = getDayFn();
+    if(this.daysNoAvailable.includes(today)){
       return false
     }
     return true
